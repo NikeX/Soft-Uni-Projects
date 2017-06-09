@@ -1,2 +1,22 @@
 using System;
-namespace Rextester{    public class Program    {        public static void Main(string[] args)        {            int num1 = int.Parse(Console.ReadLine());            int num2 = int.Parse(Console.ReadLine());            double area = CalculateArea(num1, num2);            Console.WriteLine(area);        }                public static double CalculateArea(int num1, int num2)        {            double area = ((num1 * num2) / 2);            return area;        }    }}
+namespace Rextester
+{    
+public class Program    
+{        
+
+public static void Main(string[] args)        
+{            
+int num1 = int.Parse(Console.ReadLine());            
+int num2 = int.Parse(Console.ReadLine());            
+double area = CalculateArea(num1, num2);            
+Console.WriteLine(area);        
+}                
+
+public static double CalculateArea(int num1, int num2)        
+{            
+double area = ((num1 * num2) / 2);            
+return area;        
+} 
+
+}
+}
